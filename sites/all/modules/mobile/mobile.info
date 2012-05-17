@@ -1,0 +1,27 @@
+name = "Mobile Theme Version 2.x"
+description = "A base theme dedicated to optimization for mobile devices."
+core = 7.x
+engine = phptemplate
+
+; Page layout regions
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[supplementary] = Supplementary content
+regions[navigation] = Navigation
+regions[footer] = Footer
+
+; Stylesheets
+stylesheets[all][] = styles/reset.css
+stylesheets[all][] = styles/layout.css 
+stylesheets[all][] = styles/type.css
+stylesheets[all][] = styles/color.css
+stylesheets[all][] = styles/misc.css 
+stylesheets[screen][] = styles/responsive.css 
+stylesheets[print][] = styles/print.css
+; Information added by drupal.org packaging script on 2011-04-01
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "mobile"
+datestamp = "1301616854"
+

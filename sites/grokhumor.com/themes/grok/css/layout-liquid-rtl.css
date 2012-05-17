@@ -1,0 +1,68 @@
+/**
+ * @file
+ * RTL companion for the layout-liquid.css file.
+ */
+
+
+/*
+ * Header
+ */
+.region-header {
+  float: left;
+}
+
+/*
+ * Content
+ */
+#content {
+  float: right;
+  margin-left: -100%;
+  margin-right: 0; /* Negative value of #content's width + left margin. */
+}
+
+.sidebar-first #content .section {
+  padding-left: 0; /* The width + left margin of .region-sidebar-first. */
+  padding-right: 250px;
+}
+
+.sidebar-second #content .section {
+  padding-left: 250px;
+  padding-right: 0; /* The width + right margin of .region-sidebar-second. */
+}
+
+/*
+ * First sidebar
+ */
+.region-sidebar-first {
+  float: right;
+  margin-left: -250px;
+  margin-right: 0; /* Negative value of .region-sidebar-first's width + left margin. */
+}
+
+/*
+ * Second sidebar
+ */
+.region-sidebar-second {
+  float: left;
+  margin-left: 0; /* Negative value of .region-sidebar-second's width + right margin. */
+  margin-right: -250px;
+}
+
+/*
+ * Triptych
+ */
+#triptych .region-triptych-first,
+#triptych .region-triptych-middle,
+#triptych .region-triptych-last {
+  float: right;
+}
+
+/*
+ * Footer
+ */
+#footer-columns .region-footer-firstcolumn,
+#footer-columns .region-footer-secondcolumn,
+#footer-columns .region-footer-thirdcolumn,
+#footer-columns .region-footer-fourthcolumn {
+  float: right;
+}

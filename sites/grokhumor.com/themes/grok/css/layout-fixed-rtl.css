@@ -1,0 +1,74 @@
+/**
+ * @file
+ * RTL companion for the layout-fixed.css file.
+ */
+
+
+/*
+ * Header
+ */
+.region-header {
+  float: left;
+}
+
+/*
+ * Content
+ */
+#content,
+.no-sidebars #content {
+  float: right;
+  margin-left: -960px;
+  margin-right: 0; /* Negative value of #content's width + left margin. */
+}
+
+.sidebar-first #content {
+  margin-left: -960px; /* The width of .region-sidebar-first. */
+  margin-right: 250px; /* Negative value of #content's width + left margin. */
+}
+
+.sidebar-second #content {
+  margin-left: -710px;
+  margin-right: 0; /* Negative value of #content's width + left margin. */
+}
+
+.two-sidebars #content {
+  margin-left: -710px; /* The width of .region-sidebar-first */
+  margin-right: 250px; /* Negative value of #content's width + left margin. */
+}
+
+/*
+ * First sidebar
+ */
+.region-sidebar-first {
+  float: right;
+  margin-left: -250px;
+  margin-right: 0; /* Negative value of .region-sidebar-first's width + left margin. */
+}
+
+/*
+ * Second sidebar
+ */
+.region-sidebar-second {
+  float: right;
+  margin-left: -960px; /* Width of content + sidebar-first. */
+  margin-right: 710px; /* Negative value of .region-sidebar-second's width + left margin. */
+}
+
+/*
+ * Triptych
+ */
+#triptych .region-triptych-first,
+#triptych .region-triptych-middle,
+#triptych .region-triptych-last {
+  float: right;
+}
+
+/*
+ * Footer
+ */
+#footer-columns .region-footer-firstcolumn,
+#footer-columns .region-footer-secondcolumn,
+#footer-columns .region-footer-thirdcolumn,
+#footer-columns .region-footer-fourthcolumn {
+  float: right;
+}

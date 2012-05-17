@@ -1,0 +1,106 @@
+auto-title, OpenLayers/Layer/Vector.js)
+      File: Vector.RootContainer  (no auto-title, OpenLayers/Layer/Vector/RootContainer.js)
+      File: VirtualEarth  (no auto-title, OpenLayers/Layer/VirtualEarth.js)
+      File: WFS  (no auto-title, OpenLayers/Layer/WFS.js)
+      File: WMS  (no auto-title, OpenLayers/Layer/WMS.js)
+      File: WMS.Untiled  (no auto-title, OpenLayers/Layer/WMS/Untiled.js)
+      File: WMS.Post  (no auto-title, OpenLayers/Layer/WMS/Post.js)
+      File: WorldWind  (no auto-title, OpenLayers/Layer/WorldWind.js)
+      File: Yahoo  (no auto-title, OpenLayers/Layer/Yahoo.js)
+      File: XYZ  (no auto-title, OpenLayers/Layer/XYZ.js)
+      }  # Group: Layer
+
+   File: Map  (no auto-title, OpenLayers/Map.js)
+
+   Group: Marker  {
+
+      File: Marker  (no auto-title, OpenLayers/Marker.js)
+      File: Box  (no auto-title, OpenLayers/Marker/Box.js)
+      }  # Group: Marker
+
+   Group: Popup  {
+
+      File: Popup  (no auto-title, OpenLayers/Popup.js)
+      File: Anchored  (no auto-title, OpenLayers/Popup/Anchored.js)
+      File: AnchoredBubble  (no auto-title, OpenLayers/Popup/AnchoredBubble.js)
+      File: Framed  (no auto-title, OpenLayers/Popup/Framed.js)
+      File: FramedCloud  (no auto-title, OpenLayers/Popup/FramedCloud.js)
+      }  # Group: Popup
+
+   File: Projection  (no auto-title, OpenLayers/Projection.js)
+
+   Group: Protocol  {
+
+      File: Protocol  (no auto-title, OpenLayers/Protocol.js)
+      File: HTTP  (no auto-title, OpenLayers/Protocol/HTTP.js)
+
+      Group: SQL  {
+
+         File: SQL  (no auto-title, OpenLayers/Protocol/SQL.js)
+         File: Gears  (no auto-title, OpenLayers/Protocol/SQL/Gears.js)
+         }  # Group: SQL
+
+      Group: WFS  {
+
+         File: WFS  (no auto-title, OpenLayers/Protocol/WFS.js)
+         File: v1  (no auto-title, OpenLayers/Protocol/WFS/v1.js)
+         File: v1_0_0  (no auto-title, OpenLayers/Protocol/WFS/v1_0_0.js)
+         File: v1_1_0  (no auto-title, OpenLayers/Protocol/WFS/v1_1_0.js)
+         }  # Group: WFS
+
+      }  # Group: Protocol
+
+   Group: Renderer  {
+
+      File: Renderer  (no auto-title, OpenLayers/Renderer.js)
+      File: Canvas  (no auto-title, OpenLayers/Renderer/Canvas.js)
+      File: Elements  (no auto-title, OpenLayers/Renderer/Elements.js)
+      File: SVG  (no auto-title, OpenLayers/Renderer/SVG.js)
+      File: VML  (no auto-title, OpenLayers/Renderer/VML.js)
+      }  # Group: Renderer
+
+   Group: Request  {
+
+      File: Request  (no auto-title, OpenLayers/Request.js)
+      File: XMLHttpRequest  (no auto-title, OpenLayers/Request/XMLHttpRequest.js)
+      }  # Group: Request
+
+   File: Rule  (no auto-title, OpenLayers/Rule.js)
+
+   Group: Strategy  {
+
+      File: Strategy  (no auto-title, OpenLayers/Strategy.js)
+      File: BBOX  (no auto-title, OpenLayers/Strategy/BBOX.js)
+      File: Cluster  (no auto-title, OpenLayers/Strategy/Cluster.js)
+      File: Fixed  (no auto-title, OpenLayers/Strategy/Fixed.js)
+      File: Paging  (no auto-title, OpenLayers/Strategy/Paging.js)
+      File: Refresh  (OpenLayers/Strategy/Refresh.js)
+      File: Save  (OpenLayers/Strategy/Save.js)
+      }  # Group: Strategy
+
+   File: Style  (no auto-title, OpenLayers/Style.js)
+   File: StyleMap  (no auto-title, OpenLayers/StyleMap.js)
+
+   Group: Tile  {
+
+      File: Tile  (no auto-title, OpenLayers/Tile.js)
+      File: Image  (no auto-title, OpenLayers/Tile/Image.js)
+      File: WFS  (no auto-title, OpenLayers/Tile/WFS.js)
+      File: IFrame  (OpenLayers/Tile/Image/IFrame.js)
+      }  # Group: Tile
+
+   File: Tween  (no auto-title, OpenLayers/Tween.js)
+   File: Util  (no auto-title, OpenLayers/Util.js)
+   }  # Group: OpenLayers
+
+Group: Index  {
+
+   Index: Everything
+   Class Index: Classes
+   Constant Index: Constants
+   Function Index: Functions
+   Property Index: Properties
+   File Index: Files
+   Constructor Index: Constructor
+   }  # Group: Index
+

@@ -1,0 +1,42 @@
+eight), $black );
+                }
+                $szTileImg = $szCacheDir."/t".($metaTop+$tileTop)."l".($metaLeft+$tileLeft).$szImageExtension;
+                eval("$szImageOutputFunction( \$oTile, '".$szTileImg."' );");
+                imagedestroy($oTile);
+                $oTile = null;
+            }
+        }
+        if ($oGDImg != null)
+        {   
+            imagedestroy($oGDImg);
+            $oGDImg = null;
+        }
+        if (!$bDebug)
+        {
+            unlink( $szMetaImg );
+        }
+    }
+    //release the exclusive lock
+    flock($fpLockFile, LOCK_UN );
+}
+
+//acquire shared lock for reading to prevent a problem that could occur
+//if a tile exists but is only partially generated.
+flock($fpLockFile, LOCK_SH);
+
+$h = fopen($szCacheFile, "r");
+header("Content-Type: ".$szImageHeader);
+header("Content-Length: " . filesize($szCacheFile));
+header("Expires: " . date( "D, d M Y H:i:s GMT", time() + 31536000 ));
+header("Cache-Control: max-age=31536000, must-revalidate" );
+fpassthru($h);
+fclose($h);
+
+//release lock
+fclose($fpLockFile);
+
+/* bug 1253 - root permissions required to delete cached files */
+umask($orig_umask);
+
+exit;
+?>
