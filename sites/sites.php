@@ -44,12 +44,12 @@ $sites['nullrecords.com'] = 'nullrecords.com';
 $sites['grokhumor.com'] = 'grokhumor.com';
 $sites['veloguide.com'] = 'veloguide.com';
 $sites['evidencemine.com'] = 'evidencemine.com';
-$sites['corehub.com'] = 'corehub.com';
+$sites['lensikcamera.com'] = 'lensikcamera.com';
 $sites['localhost.nullrecords'] = 'nullrecords.com';
 $sites['localhost.nullrecords.grokhumor'] = 'grokhumor.com';
 $sites['localhost.nullrecords.veloguide'] = 'veloguide.com';
 $sites['localhost.nullrecords.evidencemine'] = 'evidencemine.com';
-$sites['localhost.nullrecords.corehub'] = 'corehub.com';
+$sites['localhost.nullrecords.lensikcamera'] = 'lensikcamera.com';
 
 
 
